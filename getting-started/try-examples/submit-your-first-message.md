@@ -18,7 +18,7 @@ To create your first topic, you will use the _<mark style="color:purple;">**`Top
 
 If you would like to create a private topic you can optionally set a topic key ([_`setSubmitKey()`_](https://docs.hedera.com/guides/docs/sdks/consensus/create-a-topic#methods)). This means that messages submitted to this topic will require the topic key to sign the message submit transaction. If the topic key does not sign the message submit transaction, the message will not be submitted to the topic.
 
-After submitting the transaction to the Hedera network, you can obtain the new token ID by requesting the receipt.
+After submitting the transaction to the Hedera network, you can obtain the new topic ID by requesting the receipt.
 
 {% tabs %}
 {% tab title="Java" %}
